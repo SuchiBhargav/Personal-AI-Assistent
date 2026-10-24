@@ -8,7 +8,7 @@ The Android app (`android/`) does the phone work. A small Python server (`backen
 
 **Chat.** Type a message or tap the mic. The app keeps the recent conversation and sends it with the new line, so a follow-up such as a time or a phone number finishes the earlier request.
 
-**Calls.** “Call mummy” or “call gopi ben” looks up that contact. If the name is close but not exact, the app asks you to confirm. If nobody matches, type the number. A full number (10 digits, with or without a country code such as `+91`) is dialed directly. Shorter numbers are rejected.
+**Calls.** “Call mummy” or “call gopi benn” looks up that contact. If the name is close but not exact, the app asks you to confirm. If nobody matches, type the number. A full number (10 digits, with or without a country code such as `+91`) is dialed directly. Shorter numbers are rejected.
 
 **WhatsApp.** “WhatsApp bahubali hello” looks up the contact, shows the message, and waits for yes. You can correct the wording before it sends. After you confirm, an accessibility service opens WhatsApp (or WhatsApp Business) and sends it. If the contact is missing, type the number and the same message is used.
 
@@ -85,10 +85,9 @@ WhatsApp (or WhatsApp Business) must be installed to send a message. An emulator
 
 ## Example messages
 
-- `call mummy`
-- `call gopi ben`
-- `9876543210` (after the app asks for a number)
+- `call XYZ`  #saved contact
+- `call 9876543210` #call new number
 - `whatsapp bahubali hello`
-- `set an alarm for 7:30 am`
-- `turn off the alarm`
-- `samjhao ye message`
+- `set an alarm for 7:30 am` #set alarm
+- `turn off the alarm`   
+- `samjhao ye message`    # explain whatsp msg
